@@ -4,6 +4,10 @@ use std::env;
 extern crate rust_cli;
 use rust_cli::Config;
 
+fn add(a:i32)
+{
+    return (a+a);
+}
 
 fn main() {
     let args: Vec<String> = env::args().collect();
